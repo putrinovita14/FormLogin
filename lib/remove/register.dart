@@ -44,28 +44,24 @@ class _SignupState extends State<SignUp> {
             SizedBox(
               height: 20,
             ),
-            TextFormField(
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.black),
-                ),
-                prefixIcon: Icon(
-                  Icons.person,
-                  size: 40,
-                ),
-                hintText: "Masukkan Nama",
-                hintStyle: TextStyle(color: Colors.black),
-                labelText: "username",
+            Padding(
+                padding: EdgeInsets.only(top: 20.0),
+                child: TextFormField(
+                  decoration: new InputDecoration(
+                    hintText: "Masukkan Username",
+                    labelText: "Username",
                 labelStyle: TextStyle(color: Colors.black),
+                    prefixIcon: Icon(Icons.person, size: 35),
+                    border: OutlineInputBorder(color: Colors.black),
+                  ),
+                  validator: (String? value) {
+                    if (value!.isEmpty) {
+                      return "Username tidak boleh kosong";
+                    }
+                    return null;
+                  },
+                ),
               ),
-              validator: (String? value) {
-                if (value!.isEmpty) {
-                  return "username tidak boleh kosong";
-                }
-                return null;
-              }
-            ),
             SizedBox(
               height: 20,
             ),
