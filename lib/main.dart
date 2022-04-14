@@ -9,9 +9,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.black,
-      ),SignUp();
-      ////home: SignUp,),
-      GenerateRoute: RouteGenerator.generateRoute,
+      ),S
+      onGenerateRoute: RouteGenerator.generateRoute,
     );
   }
 }
