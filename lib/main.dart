@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:belajarform/belajarform/
+import 'package:belajarform/route.dart';
 
 class MyApp extends StatelessWidget {
   @override
