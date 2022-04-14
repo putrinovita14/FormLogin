@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:belajarform/loginPage.dart';
 import 'package:belajarform/register.dart';
-import 'package:belajarform/suksesregister.dart';
+import 'package:belajarform/suksesregistrasi.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -13,8 +13,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => LoginPage());
       case '/daftar':
         return MaterialPageRoute(builder: (_) => SignUp());
-      // case '/spam':
-      //   return MaterialPageRoute(builder: (_) => Spam());
+      case '/sregis':
+        return MaterialPageRoute(builder: (_) => SuksesRegistrasi());
       // case '/forums':
       //   return MaterialPageRoute(builder: (_) => Forums());
       // case '/promos':
