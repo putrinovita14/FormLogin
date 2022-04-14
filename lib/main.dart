@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.black,
-      ),S
+      ),
       onGenerateRoute: RouteGenerator.generateRoute,
     );
   }
