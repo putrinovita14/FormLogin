@@ -104,7 +104,11 @@ class _SignupState extends State<SignUp> {
               elevation: 5,
               child: InkWell(
                 splashColor: Colors.white,
-                onTap: () {},
+                onTap: () {
+                  if(String? value) {
+                    Navigator.pushNamed(context, '/sregis');
+                  },
+                },
                 child: Center(
                   child: Text(
                     "Masuk",
