@@ -67,8 +67,8 @@ class _SignupState extends State<SignUp> {
                   borderSide: BorderSide(color: Colors.black),
                 ),
                 prefixIcon: Icon(
-                  Icons.person,
-                  size: 40,
+                  Icons.email,
+                  size: 35,
                 ),
                 hintText: "Masukan Email",
                 hintStyle: TextStyle(color: Colors.black),
@@ -88,7 +88,7 @@ class _SignupState extends State<SignUp> {
                 ),
                 prefixIcon: Icon(
                   Icons.lock,
-                  size: 40,
+                  size: 35,
                 ),
                 hintText: "Masukan Password",
                 hintStyle: TextStyle(color: Colors.black),
