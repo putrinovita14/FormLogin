@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-port 'package:belajarform/belajarform/ro
-//ute.dart';
-impprotrtt  '''ppaacckkaaggee::rbelajarformbeegliasjtaerrf.odramr//tre;gister.dart';
-
-void main() => runApp(MyApp());
+iimmport 'package:belajarform/belajarform/
 
 class MyApp extends StatelessWidget {
   @override
