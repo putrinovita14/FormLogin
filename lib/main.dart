@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:belajarform/route.dart';
-import 'package:belajarform/register.dart';
+port 'package:belajarform/belajarform/ro
+//ute.dart';
+impprotrtt  '''ppaacckkaaggee::rbelajarformbeegliasjtaerrf.odramr//tre;gister.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,9 +13,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.black,
-      ),
-      //home: SignUp(),
-      onGenerateRoute: RouteGenerator.generateRoute,
+      ),SignUp();
+      ////home: SignUp,),
+      GenerateRoute: RouteGenerator.generateRoute,
     );
   }
 }

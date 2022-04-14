@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:belajarform/loginPage.dart';
 import 'package:belajarform/register.dart';
+import 'package:belajarform/suksesregister.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
